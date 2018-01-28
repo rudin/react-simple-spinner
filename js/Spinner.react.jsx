@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const styles = {
   //default styles
@@ -118,9 +119,9 @@ export default class Spinner extends React.Component {
 }
 
 Spinner.propTypes = {
-  colorHex: React.PropTypes.string,
-  spinnerWidth: React.PropTypes.string,
-  spinDuration: React.PropTypes.number,
-  style: React.PropTypes.string,
-  size: React.PropTypes.string,
+  colorHex: PropTypes.string,
+  spinnerWidth: PropTypes.string,
+  spinDuration: PropTypes.number,
+  style: PropTypes.string,
+  size: PropTypes.string,
 };
