@@ -6,7 +6,7 @@
     "react",
     "spinner"
   ],
-  "main": "dist/spinner.js",
+  "main": "js/index.js",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.1"
   },
